@@ -117,6 +117,10 @@ class StyleModel:
 
         # self.kernel_attention = self.netKA(self.latent_B)
 
+        # self.channel_attention = self.netCA(self.latent_B)
+        #
+        # self.latent_R = self.channel_attention * self.latent_A
+
         # self.latent_R = self.netKC(self.kernel_attention, self.latent_A)
 
         # self.latent_R = self.kernel_attention * self.latent_A
